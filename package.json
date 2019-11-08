@@ -1,0 +1,18 @@
+{
+  "name": "commit-file-capture",
+  "version": "1.0.0",
+  "description": "Notifies Slack when a given file is committed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonardo Gallo",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-watch": "^4.3.6",
+    "request": "^2.72.0",
+    "simple-git": "^1.126.0",
+    "slack-notify": "^0.1.7"
+  }
+}
